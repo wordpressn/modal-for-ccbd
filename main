@@ -1,0 +1,67 @@
+
+<style>
+
+/* CSS for modal popup */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 10px;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(214, 214, 214, 0.986);
+    }
+    
+    .modal-content {
+      display: block;
+      margin: 10% auto;
+      max-width: 600px;
+    }
+    
+    .modal-content img {
+      width: 100%;
+      height: auto;
+    }
+
+    hr.solid {
+  border-top: 3px solid #0e0e0e;
+}
+#closemodal1{
+font-size: 50px;
+cursor: pointer;
+}
+#modalp1{
+  font-size: 18px;;
+}
+    </style>
+<!-- Modal Popup -->
+      <div class="container-fluid modal  mt-5" id="myModal" >
+      
+      <div class="row">
+      <div class="col-10 pt-3 ">
+        <h1>Lorem, ipsum dolor sitdam nemo ma corrupti, itaque blanditiis!</h1>
+      </div>
+    
+    <div class="col-2" id="closemodal1" onclick="closeModal()">
+      &times;
+    </div>
+  </div>
+    <hr class="solid">
+    <!--content -->
+    <div class="row">
+      <div class="col-lg-4 justify-content-end">
+        <img src="https://picsum.photos/200?random=7" alt="">
+      </div>
+      <div class="col-lg-8 justify-content-start">
+        <p id="modalp1">
+          Hazrat Shahjalal International Airport is the principal international airport 
+          serving Bangladesh and its largest city, Dhaka. It is located in Kurmitola, 17 kilometers (11 mi)
+           from the city centre, in the northern part of Dhaka.  It was constructed by Concord in 1980.
+        </p>
+      </div>
+      
+    
+  </div>
+</div>
